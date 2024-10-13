@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.UnitConverter" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- MaterialButton uses colorPrimary as background when button is in active state and colorOnSurface when disabled. -->
+         <item name="colorPrimary">@color/custom_button_color</item>
+    </style>
+
+    <style name="Theme.UnitConverter" parent="Base.Theme.UnitConverter" />
+</resources>
